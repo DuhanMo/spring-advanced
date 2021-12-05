@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @ClassAop
 @Component
-public class MemberServiceImpl implements MemberService{
+public class MemberServiceImpl implements MemberService {
 
     @Override
     @MethodAop("test value")

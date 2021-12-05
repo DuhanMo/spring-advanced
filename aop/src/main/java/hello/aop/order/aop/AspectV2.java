@@ -11,7 +11,8 @@ import org.aspectj.lang.annotation.Pointcut;
 public class AspectV2 {
 
     @Pointcut("execution(* hello.aop.order..*(..))")
-    private void allOrder(){}
+    private void allOrder() {
+    }
 
     // hello.aop.order 패키지와 하위 패키지
     @Around("allOrder()")
